@@ -1,4 +1,5 @@
-import { useForm } from "@formspree/react";
+"use client"
+import { useForm, ValidationError } from "@formspree/react";
 import React from "react";
 import { toast } from "react-toastify";
 
@@ -23,6 +24,11 @@ export const Form = () => {
         <form className="p-[3rem]" onSubmit={handleSubmit}>
           <div>
             <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
+            <ValidationError
+              prefix="Nombre"
+              field="nombre"
+              errors={state.errors}
+            />
           </div>
           <div>
             <input
@@ -31,9 +37,19 @@ export const Form = () => {
               name="apellido"
               placeholder="Apellido"
             />
+            <ValidationError
+              prefix="Apellido"
+              field="apellido"
+              errors={state.errors}
+            />
           </div>
           <div>
             <input type="email" id="email" name="email" placeholder="Email" />
+            <ValidationError
+              prefix="Email"
+              field="email"
+              errors={state.errors}
+            />
           </div>
           <div>
             <input
@@ -42,12 +58,22 @@ export const Form = () => {
               name="telefono"
               placeholder="Teléfono"
             />
+            <ValidationError
+              prefix="Telefono"
+              field="telefono"
+              errors={state.errors}
+            />
           </div>
           <div>
             <textarea
-              id="comentario"
-              name="comentario"
+              id="message"
+              name="message"
               placeholder="Agrega un comentario"
+            />
+            <ValidationError
+              prefix="Message"
+              field="message"
+              errors={state.errors}
             />
           </div>
           <div className="flex justify-end">
