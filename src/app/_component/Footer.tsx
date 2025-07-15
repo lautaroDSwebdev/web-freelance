@@ -18,6 +18,7 @@ export const Footer = () => {
           <div className="flex flex-col gap-1">
             <a href="https://www.linkedin.com/in/ldsfrontend/" target="_blank" rel="noopener noreferrer" className="hover:underline">LinkedIn</a>
             <a href="https://github.com/lautaroDSwebdev" target="_blank" rel="noopener noreferrer" className="hover:underline">GitHub</a>
+            <a href="https://api.whatsapp.com/send?phone=5492494379804" target="_blank">Whatsapp</a>
             <a href="https://www.instagram.com/lautarodisalvo_frontdev" target="_blank" rel="noopener noreferrer" className="hover:underline">Instagram</a>
             {/* Agrega más redes si quieres */}
           </div>
