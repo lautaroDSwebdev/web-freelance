@@ -38,10 +38,10 @@ export const Header = () => {
             alt="imagen mia"
           />
           <div className="absolute  top-[11rem] sm:top-[19rem] flex flex-col sm:flex-row gap-[1rem] sm:gap-[3rem]">
-            <div className=" w-full  flex items-center gap-[10px] g-bg-dark p-[10px] sm:p-[16px] rounded-2sm outline-1 outline-green-600">
+            <div className=" w-full  flex items-center gap-[10px] g-bg-dark p-[10px] sm:p-[16px] rounded-2xl outline-1 outline-green-600">
              <p className="text-[1.4rem] sm:text-[2rem]">3</p> <i className="g-colour-green text-[12px] ">Años de experiencia</i>
             </div>
-            <div className=" w-full flex items-center gap-[10px] g-bg-dark p-[10px] sm:p-[16px] rounded-2sm outline-1 outline-green-600">
+            <div className=" w-full flex items-center gap-[10px] g-bg-dark p-[10px] sm:p-[16px] rounded-2xl outline-1 outline-green-600">
               <p className="text-[1.4rem]  sm:text-[2rem]">+10 </p> <i className="g-colour-green text-[12px]">Proyectos completados</i>
             </div>
           </div>

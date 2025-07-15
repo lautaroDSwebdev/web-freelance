@@ -14,7 +14,7 @@ export const Projects = () => {
         <section className="flex flex-col  sm:flex-row p-[3rem] justify-center gap-[2rem]">
           {proyectos.map((e) => (
             <div
-              className="p-[1rem]   g-gradient-blue rounded-2sm flex flex-col"
+              className="p-[1rem]   g-gradient-blue rounded-2xl flex flex-col"
               key={e.id}
             >
               <img
