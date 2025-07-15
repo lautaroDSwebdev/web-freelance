@@ -3,13 +3,11 @@ import React from "react";
 import { toast } from "react-toastify";
 
 export const Form = () => {
+  const [state, handleSubmit, reset] = useForm("mpwlzwrb");
 
-  const [state, handleSubmit, reset] = useForm('mpwlzwrb');
-
-const Submited = () => { 
-  toast.success("Mail enviado")
- }
-   
+  const Submited = () => {
+    toast.success("Mail enviado");
+  };
 
   return (
     <div className="g-bg-dark sm:p-[5rem] pt-[4rem]" id="contacto">
@@ -22,14 +20,9 @@ const Submited = () => {
         </h2>
       </article>
       <section className="flex justify-center">
-        <form className="p-[3rem]">
+        <form className="p-[3rem]" onSubmit={handleSubmit}>
           <div>
-            <input
-            type="text"
-            id="nombre"
-            name="nombre"
-            placeholder="Nombre"
-            />
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
           </div>
           <div>
             <input
@@ -40,12 +33,7 @@ const Submited = () => {
             />
           </div>
           <div>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Email"
-            />
+            <input type="email" id="email" name="email" placeholder="Email" />
           </div>
           <div>
             <input
@@ -63,8 +51,14 @@ const Submited = () => {
             />
           </div>
           <div className="flex justify-end">
-
-          <button onClick={Submited} disabled={state.submitting} className="g-bg-green p-[10px] cursor-pointer text-[#000] font-semibold rounded-[10px]" type="submit">Enviar</button>
+            <button
+              onClick={Submited}
+              disabled={state.submitting}
+              className="g-bg-green p-[10px] cursor-pointer text-[#000] font-semibold rounded-[10px]"
+              type="submit"
+            >
+              Enviar
+            </button>
           </div>
         </form>
       </section>
