@@ -25,7 +25,8 @@ export const Projects = () => {
               <p className="g-colour-green px-[1rem]">{e.tech}</p>
               <b className="px-[1rem] text-[1.2rem]">{e.data}</b>
               <a
-                className="px-[1rem] w-fit flex items-center gap-1"
+                className="px-[1rem] w-fit flex items-center gap-1" 
+                target="_blank"
                 href={e.href}
               >
                 <p>
