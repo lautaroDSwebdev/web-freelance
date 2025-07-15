@@ -2,7 +2,7 @@ import React from "react";
 
 export const AboutMe = () => {
   return (
-    <div id="sobre-mi" className="g-bg-dark p-[8rem]">
+    <div id="sobre-mi" className="g-bg-dark xl:p-[8rem] pt-[14rem]">
       <section className="max-width mx-auto">
         <h2 className="text-center g-colour-green">Sobre mi</h2>
         <div className="flex justify-center">

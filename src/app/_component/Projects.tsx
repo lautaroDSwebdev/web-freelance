@@ -3,7 +3,7 @@ import { proyectos } from "../_mock/mock";
 
 export const Projects = () => {
   return (
-    <div className="g-bg-dark p-[5rem]" id="proyectos">
+    <div className="g-bg-dark xl:p-[5rem] pt-[4rem]" id="proyectos">
       <article className="max-width mx-auto">
         <p className="g-styles-minititles g-colour-green text-center p-[1rem">
           Proyectos
