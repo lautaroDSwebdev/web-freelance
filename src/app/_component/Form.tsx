@@ -1,6 +1,16 @@
+import { useForm } from "@formspree/react";
 import React from "react";
+import { toast } from "react-toastify";
 
 export const Form = () => {
+
+  const [state, handleSubmit, reset] = useForm('mpwlzwrb');
+
+const Submited = () => { 
+  toast.success("Mail enviado")
+ }
+   
+
   return (
     <div className="g-bg-dark sm:p-[5rem] pt-[4rem]" id="contacto">
       <article className="max-width mx-auto">
@@ -54,7 +64,7 @@ export const Form = () => {
           </div>
           <div className="flex justify-end">
 
-          <button className="g-bg-green p-[10px] cursor-pointer text-[#000] font-semibold rounded-[10px]" type="submit">Enviar</button>
+          <button onClick={Submited} disabled={state.submitting} className="g-bg-green p-[10px] cursor-pointer text-[#000] font-semibold rounded-[10px]" type="submit">Enviar</button>
           </div>
         </form>
       </section>
