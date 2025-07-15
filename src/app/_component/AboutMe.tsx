@@ -2,7 +2,7 @@ import React from "react";
 
 export const AboutMe = () => {
   return (
-    <div id="sobre-mi" className="g-bg-dark xl:p-[8rem] p-[14rem_3rem_5rem_3rem] ">
+    <div id="sobre-mi" className="g-bg-dark sm:p-[8rem] p-[14rem_3rem_5rem_3rem] ">
       <section className="max-width mx-auto">
         <h2 className="text-center g-colour-green">Sobre mi</h2>
         <div className="flex justify-center">
@@ -10,7 +10,7 @@ export const AboutMe = () => {
             La vision detras del codigo
           </b>
         </div>
-        <div className="flex flex-col xl:flex-row justify-between">
+        <div className="flex flex-col sm:flex-row justify-between">
           <p className="p-[1rem]">
             Me especializo en construir aplicaciones robustas, escalables y con
             una atención al detalle en la experiencia de usuario en el frontend

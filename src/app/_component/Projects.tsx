@@ -3,7 +3,7 @@ import { proyectos } from "../_mock/mock";
 
 export const Projects = () => {
   return (
-    <div className="g-bg-dark xl:p-[5rem] pt-[4rem]" id="proyectos">
+    <div className="g-bg-dark sm:p-[5rem] pt-[4rem]" id="proyectos">
       <article className="max-width mx-auto">
         <p className="g-styles-minititles g-colour-green text-center p-[1rem">
           Proyectos
@@ -11,10 +11,10 @@ export const Projects = () => {
         <h2 className="g-styles-titlesection text-center p-[1rem">
           Casos de estudio
         </h2>
-        <section className="flex flex-col  xl:flex-row p-[3rem] justify-center gap-[2rem]">
+        <section className="flex flex-col  sm:flex-row p-[3rem] justify-center gap-[2rem]">
           {proyectos.map((e) => (
             <div
-              className="p-[1rem]   g-gradient-blue rounded-2xl flex flex-col"
+              className="p-[1rem]   g-gradient-blue rounded-2sm flex flex-col"
               key={e.id}
             >
               <img
