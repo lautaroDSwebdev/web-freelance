@@ -89,9 +89,10 @@ html{
   transition: transform 0.25s ease-out;
 }
 
-.hover-underline-animation:hover::after {
+.hover-underline-animation:hover:after {
   transform: scaleX(1);
 }
+
 
 .hover-underline-animation.left::after {
   transform-origin: bottom right;
@@ -99,4 +100,27 @@ html{
 
 .hover-underline-animation.left:hover::after {
   transform-origin: bottom left;
+}
+form{
+  width: 100%;
+  margin: auto;
+  max-width: 600px;
+  div{
+    padding: 1rem;
+    /* width: 100%; */
+    
+  }
+  input, textarea{
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #aca7a7;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+textarea{
+  max-height: 200px;
+}
 }
