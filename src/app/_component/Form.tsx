@@ -18,7 +18,7 @@ export const Form = () => {
             type="text"
             id="nombre"
             name="nombre"
-            placeholder="Ingresa tu nombre"
+            placeholder="Nombre"
             />
           </div>
           <div>
@@ -26,7 +26,7 @@ export const Form = () => {
               type="text"
               id="apellido"
               name="apellido"
-              placeholder="Ingresa tu apellido"
+              placeholder="Apellido"
             />
           </div>
           <div>
@@ -34,7 +34,7 @@ export const Form = () => {
               type="email"
               id="email"
               name="email"
-              placeholder="Ingresa tu email"
+              placeholder="Email"
             />
           </div>
           <div>
@@ -42,7 +42,7 @@ export const Form = () => {
               type="tel"
               id="telefono"
               name="telefono"
-              placeholder="Ingresa tu número de teléfono"
+              placeholder="Teléfono"
             />
           </div>
           <div>
