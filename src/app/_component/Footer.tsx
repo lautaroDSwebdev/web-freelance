@@ -16,9 +16,9 @@ export const Footer = () => {
         <div className="flex-1 flex flex-col gap-2 items-start sm:items-end">
           <h4 className="font-bold mb-2">Redes Sociales</h4>
           <div className="flex flex-col gap-1">
-            <a href="https://www.linkedin.com/in/lautaro-disalvo/" target="_blank" rel="noopener noreferrer" className="hover:underline">LinkedIn</a>
-            <a href="https://github.com/lautaro-disalvo" target="_blank" rel="noopener noreferrer" className="hover:underline">GitHub</a>
-            <a href="https://twitter.com/lautaro_disalvo" target="_blank" rel="noopener noreferrer" className="hover:underline">Twitter</a>
+            <a href="https://www.linkedin.com/in/ldsfrontend/" target="_blank" rel="noopener noreferrer" className="hover:underline">LinkedIn</a>
+            <a href="https://github.com/lautaroDSwebdev" target="_blank" rel="noopener noreferrer" className="hover:underline">GitHub</a>
+            <a href="https://www.instagram.com/lautarodisalvo_frontdev" target="_blank" rel="noopener noreferrer" className="hover:underline">Instagram</a>
             {/* Agrega más redes si quieres */}
           </div>
         </div>
