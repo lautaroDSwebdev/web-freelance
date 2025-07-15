@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+
+}
+.g-dark-blue{
+  background-color: #1E1D30;
+}
+.g-bg-green{
+  background-color: #37D67A;
+  &:hover{
+    background-color: #2da760;
+
+  }
+}
+.g-bg-dark{
+  background-color: #19191B;
+}
+.g-styles-titlesection{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}
+.g-gradient-blue{
+  background-image: linear-gradient(0deg, rgba(57, 54, 118, 1) 0%, rgba(30, 29, 48, 1) 100%);
+}
+.g-styles-minititles{
+  font-size: 1rem;
+  font-weight: 900;
+}
+.g-colour-green{
+  color: #37D67A ;
+}
+.max-width{
+  max-width: 1200px;
+  
+}
+.g-btn{
+  padding: 1rem;
+  text-align: center;
+  color: #020202;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+/* Subrayado animado */
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+}
+
+.hover-underline-animation.left::after {
+  transform-origin: bottom right;
+}
+
+.hover-underline-animation.left:hover::after {
+  transform-origin: bottom left;
+}
