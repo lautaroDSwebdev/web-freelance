@@ -16,8 +16,8 @@ export const metadata: Metadata = {
   title: "Lautaro Di Salvo - Web Developer",
   description: "Me especializo en la creacion de sitios web profesionales",
   icons: {
-    icon: "/mi-cara.ico"
-  }
+    icon: "/mi-cara.ico",
+  },
 };
 
 export default function RootLayout({
@@ -27,6 +27,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+      <link
+        rel="icon"
+        href="/mi-cara.ico"
+        type="image/<generated>"
+        sizes="<generated>"
+      />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
