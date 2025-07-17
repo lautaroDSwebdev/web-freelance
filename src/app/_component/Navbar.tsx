@@ -3,7 +3,7 @@ import React from "react";
 import { navLinks } from "../_mock/mock";
 export const NavBar = () => {
   return (
-    <div className=" fixed  bottom-0 md:top-0 w-full g-gradient-blue h-[5rem]   z-[900]">
+    <div className=" fixed  bottom-0 md:top-0 w-full g-blur h-[5rem]   z-[900]">
       <section className="flex flex-col md:flex-row justify-between max-width m-auto h-[5rem]
         items-center">
         <a href="#home">

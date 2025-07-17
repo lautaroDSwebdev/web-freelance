@@ -42,6 +42,10 @@ html {
 .g-dark-blue {
   background-color: #1e1d30;
 }
+.g-blur{
+  backdrop-filter: blur(2rem);
+  background-color: #3936767a;
+}
 .g-bg-green {
   background-color: #37d67a;
   &:hover {
