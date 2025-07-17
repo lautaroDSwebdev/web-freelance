@@ -3,7 +3,7 @@ import { navLinks, socialLinks } from '../_mock/mock'
 
 export const Footer = () => {
   return (
-    <footer className="g-dark-blue text-white pt-8 pb-4 px-[3rem]">
+    <footer className="g-dark-blue text-white pt-8 pb-4  px-[1rem]">
       <div className="max-width mx-auto flex flex-row justify-between gap-8 px-4">
         {/* Columna izquierda: navegación */}
         <div className="flex-1 flex flex-col gap-2">

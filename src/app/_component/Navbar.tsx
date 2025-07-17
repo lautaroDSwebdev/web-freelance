@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { navLinks } from "../_mock/mock";
 export const NavBar = () => {
@@ -9,7 +10,6 @@ export const NavBar = () => {
           <h2 className="font-bold lg:text-[21px] md:text-[15px] text-[13px]">Lautaro Di Salvo</h2>
         </a>
         <nav className="flex justify-evenly gap-[1rem] p-[14px_0] ">
-          {/* home about me services projects contact */}
           {navLinks.map((e) => (
             <a
               key={e.id}

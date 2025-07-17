@@ -21,7 +21,7 @@ export const Form = () => {
         </h2>
       </article>
       <section className="flex justify-center">
-        <form className="p-[3rem]" onSubmit={handleSubmit}>
+        <form className="p-[1rem]" onSubmit={handleSubmit}>
           <div>
             <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
             <ValidationError
