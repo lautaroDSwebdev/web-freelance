@@ -15,9 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Lautaro Di Salvo - Web Developer",
   description: "Me especializo en la creacion de sitios web profesionales",
-  icons: {
-    icon: "/mi-cara.ico",
-  },
+ 
 };
 
 export default function RootLayout({
