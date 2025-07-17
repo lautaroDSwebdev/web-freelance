@@ -29,6 +29,12 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+.section-entireheight{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
 .g-dark-blue {
   background-color: #1e1d30;
 }

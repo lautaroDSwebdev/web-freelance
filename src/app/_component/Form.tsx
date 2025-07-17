@@ -11,7 +11,8 @@ export const Form = () => {
   };
 
   return (
-    <div className="g-bg-dark sm:p-[5rem] pt-[4rem]" id="contacto">
+    
+    <div className="g-bg-dark sm:p-[5rem] pt-[4rem] " id="contacto">
       <article className="max-width mx-auto">
         <p className="g-styles-minititles g-colour-green text-center p-[1rem">
           Contacto

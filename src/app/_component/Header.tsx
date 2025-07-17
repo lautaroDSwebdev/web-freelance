@@ -2,7 +2,7 @@ import React from "react";
 
 export const Header = () => {
   return (
-    <div className="g-bg-dark sm:p-[8rem]  p-[3rem_1rem] h-[92dvh]" id="home">
+    <div className="g-bg-dark  section-entireheight  p-[3rem_1rem] h-[92dvh]" id="home">
       <section className="flex flex-col sm:flex-row gap-[21rem] sm:gap-[6rem] lg:gap-[18rem] justify-center max-width m-auto sm:h-[30rem]">
         <article className="h-[10vh]">
           <h3 className="g-styles-titlesection p-[1rem] text-center sm:text-left ">

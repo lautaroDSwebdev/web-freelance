@@ -2,7 +2,7 @@ import React from "react";
 
 export const Services = () => {
   return (
-    <div className="g-dark-blue sm:p-[5rem] pt-[4rem]" id="servicios">
+    <div className="g-dark-blue sm:p-[5rem] pt-[4rem] section-entireheight" id="servicios">
       <article className="max-width mx-auto">
         <p className="g-styles-minititles g-colour-green text-center p-[1rem">
           Servicios
