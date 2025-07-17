@@ -3,9 +3,9 @@ import React from "react";
 import { navLinks } from "../_mock/mock";
 export const NavBar = () => {
   return (
-    <div className=" fixed  bottom-0 md:top-0 w-full g-scroll-animated-color h-[4.5rem]  sm:h-[5rem] z-[900]">
-      <section className="flex flex-col md:flex-row justify-between max-width m-auto h-[4rem]
-        md:h-[4rem] items-center">
+    <div className=" fixed  bottom-0 md:top-0 w-full g-scroll-animated-color h-[5rem]   z-[900]">
+      <section className="flex flex-col md:flex-row justify-between max-width m-auto h-[5rem]
+        items-center">
         <a href="#home">
           <h2 className="font-bold lg:text-[21px] md:text-[15px] text-[13px]">Lautaro Di Salvo</h2>
         </a>
