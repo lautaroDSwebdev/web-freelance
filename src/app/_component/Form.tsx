@@ -76,11 +76,11 @@ export const Form = () => {
               errors={state.errors}
             />
           </div>
-          <div className="flex justify-end">
+          <div className="flex sm:justify-end justify-center ">
             <button
               onClick={Submited}
               disabled={state.submitting}
-              className="g-bg-green p-[10px] cursor-pointer text-[#000] font-semibold rounded-[10px]"
+              className="g-bg-green p-[10px] cursor-pointer text-[#000] font-semibold rounded-[10px] w-full sm:w-[10rem]"
               type="submit"
             >
               Enviar

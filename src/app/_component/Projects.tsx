@@ -11,10 +11,10 @@ export const Projects = () => {
         <h2 className="g-styles-titlesection text-center p-[1rem">
           Casos de estudio
         </h2>
-        <section className="flex flex-col  sm:flex-row p-[3rem] justify-center gap-[2rem]">
+        <section className="flex flex-col  sm:flex-row p-[3rem] justify-center gap-[1rem]">
           {proyectos.map((e) => (
             <div
-              className="p-[1rem]   g-gradient-blue rounded-2xl flex flex-col"
+              className="p-[1rem]   g-gradient-blue rounded-2xl flex flex-col g-scroll-animated-size-cards"
               key={e.id}
             >
               <img
@@ -23,7 +23,7 @@ export const Projects = () => {
                 alt={e.data}
               />
               <p className="g-colour-green px-[1rem]">{e.tech}</p>
-              <b className="px-[1rem] text-[1.2rem]">{e.data}</b>
+              <b className="px-[1rem] text-[16px]">{e.data}</b>
               <a
                 className="px-[1rem] w-fit flex items-center gap-1" 
                 target="_blank"

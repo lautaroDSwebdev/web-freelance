@@ -3,6 +3,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  /* --width-notebook: 1024px;
+  --width-laptop: 900px;
+  --width-mobile: 640px; */
 }
 @theme inline {
   --color-background: var(--background);
@@ -23,86 +26,106 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
-html{
+html {
   scroll-behavior: smooth;
-
 }
-.g-dark-blue{
-  background-color: #1E1D30;
+.g-dark-blue {
+  background-color: #1e1d30;
 }
-.g-bg-green{
-  background-color: #37D67A;
-  &:hover{
+.g-bg-green {
+  background-color: #37d67a;
+  &:hover {
     background-color: #2da760;
-
   }
 }
-.g-bg-dark{
-  background-color: #19191B;
+.g-scroll-animated-color {
+  background-color: #1e1d30;
+  @media (width < 640px) {
+    view-timeline-name: --arrow;
+    view-timeline-axis: block;
+    animation-timeline: --arrow;
+    animation-name: animacion_scroll;
+    animation-range: entry 63% cover 1000%;
+    animation-fill-mode: both;
+  }
 }
-.g-styles-titlesection{
-  font-size: 2rem;
-  @media (width < 900px) {
+
+@keyframes animacion_scroll {
+  from {
+    background-color: #1e1d30;
+  }
+  to {
+    background-color: #393676;
+  }
+}
+.g-scroll-animated-size-cards {
+  view-timeline-name: --arrow;
+  view-timeline-axis: block;
+  animation-timeline: --arrow;
+  animation-name: animacion_scroll-cards;
+  animation-range: entry 63% cover 30%;
+  animation-fill-mode: both;
+}
+
+@keyframes animacion_scroll-cards {
+  from {
+    scale: 0;
+    opacity: 0;
+  }
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+}
+.g-bg-dark {
+  background-color: #19191b;
+}
+.g-styles-titlesection {
+  font-size: 2.5rem;
+  @media (width < 948px) {
+    font-size: 2rem;
+  }
+  @media (width < 648px) {
     font-size: 6.5vw;
-    
   }
   font-weight: 700;
   color: #fff;
 }
-.g-gradient-blue{
-  background-image: linear-gradient(0deg, rgba(57, 54, 118, 1) 0%, rgba(30, 29, 48, 1) 100%);
+.g-gradient-blue {
+  background-image: linear-gradient(0deg, #393676 0%, rgba(30, 29, 48, 1) 100%);
 }
-.g-styles-minititles{
-  font-size: 1rem;
+.g-styles-minititles {
+  font-size: 1.5rem;
   font-weight: 900;
-}
-.g-colour-green{
-  color: #37D67A ;
-}
-.max-width{
-  max-width: 1000px;
-  @media (width < 1000px) {
-    max-width: 800px;
+  padding: 1rem;
+  @media (width < 648px) {
+    font-size: 1rem;
+    padding: 0.8rem;
+    text-overflow: ellipsis;
     
   }
 }
-.g-btn{
+.g-colour-green {
+  color: #37d67a;
+}
+.max-width {
+  max-width: 1000px;
+  @media (width < 1024px) {
+    max-width: 800px;
+  }
+}
+.g-btn {
   padding: 1rem;
   text-align: center;
   color: #020202;
   border-radius: 5px;
   font-weight: 700;
-  @media (width < 900px) {
-    padding: .5rem;
+  @media (width < 1024px) {
   }
-  cursor: pointer;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
 }
-/* Subrayado animado */
-.hover-underline-animation {
-  display: inline-block;
-  position: relative;
-}
-
-.hover-underline-animation::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #0087ca;
-  transition: transform 0.25s ease-out;
-}
-
-.hover-underline-animation:hover:after {
+hover-underline-animation:hover:after {
   transform: scaleX(1);
 }
-
 
 .hover-underline-animation.left::after {
   transform-origin: bottom right;
@@ -111,16 +134,16 @@ html{
 .hover-underline-animation.left:hover::after {
   transform-origin: bottom left;
 }
-form{
+form {
   width: 100%;
   margin: auto;
   max-width: 600px;
-  div{
+  div {
     padding: 1rem;
     /* width: 100%; */
-    
   }
-  input, textarea{
+  input,
+  textarea {
     width: 100%;
     padding: 9px;
     border: 1px solid #aca7a7;
@@ -129,8 +152,8 @@ form{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-}
-textarea{
-  max-height: 200px;
-}
+  }
+  textarea {
+    max-height: 200px;
+  }
 }
