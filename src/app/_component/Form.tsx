@@ -6,7 +6,7 @@ import { toast } from "react-toastify";
 export const Form = () => {
   const [state, handleSubmit, reset] = useForm("mpwlzwrb");
 
-  const Submited = async (e) => {
+  const Submited = async () => {
     // e.preventDefault();
 
     // Delega el envío a Formspree
