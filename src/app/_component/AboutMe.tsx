@@ -11,15 +11,15 @@ export const AboutMe = () => {
           </b>
         </div>
         <div className="flex flex-col sm:flex-row justify-between">
-          <p className="p-[1rem] text-[14px] sm:text-[17px]">
+          <p className="p-[1rem] text-[14px] sm:text-[17px] lg:text-[20px] font-bold">
             Me especializo en construir aplicaciones robustas, escalables y con
             una atención al detalle en la experiencia de usuario en el frontend
           </p>
-          <p className="p-[1rem] text-[14px] sm:text-[17px]">
+          <p className="p-[1rem] text-[14px] sm:text-[17px] lg:text-[20px] font-bold">
             Creo que cada proyecto es una oportunidad de resolver problemas
             reales, mejorar procesos y dar vida ideas unicas
           </p>
-          <p className="p-[1rem] text-[14px] sm:text-[17px]">
+          <p className="p-[1rem] text-[14px] sm:text-[17px] lg:text-[20px] font-bold">
             ¿Tenes una idea en mente? Me encantaría escucharla y ver como
             podemos hacerla realidad juntos
           </p>

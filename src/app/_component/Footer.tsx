@@ -9,7 +9,7 @@ export const Footer = () => {
         <div className="flex-1 flex flex-col gap-2">
           <h4 className="font-bold mb-2">Navegación</h4>
           {navLinks.map((e) => (
-            <a key={e.id} href={e.href} className="hover:underline w-fit">{e.option}</a>
+            <a key={e.id} href={e.href} className="hover:underline w-fit lg:text-[20px] hover:text-[#bebbbb]">{e.option}</a>
           ))}
         </div>
         {/* Columna derecha: redes sociales */}
@@ -18,14 +18,14 @@ export const Footer = () => {
           <div className="flex flex-col gap-1">
             {
               socialLinks.map( e => (
-                <a href={e.href} target='_blank'>{e.label}</a>
+                <a className='lg:text-[20px] hover:text-[#bebbbb]' href={e.href} target='_blank'>{e.label}</a>
               ))
             }
             {/* Agrega más redes si quieres */}
           </div>
         </div>
-      </div>
-      <div className="border-t border-gray-700 mt-8 pt-4 text-center text-sm text-gray-400">
+      </div> 
+      <div className="border-t border-gray-700 mt-8 pt-4 text-center text-sm text-gray-400 lg:text-[20px]">
         &copy; {new Date().getFullYear()} Lautaro Di Salvo. Todos los derechos reservados.
       </div>
     </footer>

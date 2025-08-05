@@ -22,14 +22,14 @@ export const Projects = () => {
                 src={e.img}
                 alt={e.data}
               />
-              <p className="g-colour-green px-[1rem]">{e.tech}</p>
-              <b className="px-[1rem] text-[16px]">{e.data}</b>
+              <p className="g-colour-green px-[1rem] text-[14px] md:text-[20px] xl:text-[23px]">{e.tech}</p>
+              <b className="px-[1rem] text-[16px] md:text-[20px] xl:text-[26px]">{e.data}</b>
               <a
-                className="px-[1rem] w-fit flex items-center gap-1" 
+                className="px-[1rem] w-fit flex items-center gap-1 " 
                 target="_blank"
                 href={e.href}
               >
-                <p>
+                <p className="text-[13px] md:text-[20px]  xl:text-[23px]">
                   Ver proyecto
                 </p>
                   <img src="/arrow-svg.svg" alt="arrow" />
