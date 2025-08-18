@@ -18,7 +18,7 @@ export const Footer = () => {
           <div className="flex flex-col gap-1">
             {
               socialLinks.map( e => (
-                <a className='lg:text-[20px] hover:text-[#bebbbb]' href={e.href} target='_blank'>{e.label}</a>
+                <a className='lg:text-[20px] hover:text-[#bebbbb]' href={e.href} key={e.label} target='_blank'>{e.label}</a>
               ))
             }
             {/* Agrega más redes si quieres */}

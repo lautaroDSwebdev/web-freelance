@@ -18,7 +18,7 @@ export const Projects = () => {
               key={e.id}
             >
               <img
-                className="h-auto rounded-[20px] w-[100%] p-[1rem] hover:opacity-70 transition-all .3s ease-in-out"
+                className="h-auto min-h-[13rem]  rounded-[20px] w-[100%] p-[1rem] hover:opacity-70 transition-all .3s ease-in-out"
                 src={e.img}
                 alt={e.data}
               />
