@@ -24,7 +24,7 @@ export const Services = () => {
             <img className="h-auto w-[3rem] m-[1rem]" src="logo-computer.svg" alt="computer" />
             <b className=" g-styles-minititles">Habilidades en desarrollo</b>
             <p className="max-w-[600px] text-[#c4c2c2] p-[1rem] lg:text-[17px] xl:text-[21px]">
-              Competente en desarrollo web totalmente personalizado. Tu idea se contruyo en codigo para mayor margen de personalizacion, velocidad, sin errores de plugins y totalmente escalable
+              Competente en desarrollo web totalmente personalizado. Tu idea la contruyo en codigo para mayor margen de personalizacion, velocidad, sin errores de plugins y totalmente escalable.
             </p>
           </div>
         </section>
