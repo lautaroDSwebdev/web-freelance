@@ -13,13 +13,13 @@ export const navLinksIcons = [
   { id: 5, option: "Contacto", href: "#contacto" },
 ];
 export const proyectos = [
-  {
-    id: 1,
-    tech: "Next Js",
-    href: "https://plazahotel.netlify.app/",
-    data: "Hotel Plaza Web",
-    img: "/imagen-hotel-plaza.png",
-  },
+  // {
+  //   id: 1,
+  //   tech: "Next Js",
+  //   href: "https://plazahotel.netlify.app/",
+  //   data: "Hotel Plaza Web",
+  //   img: "/imagen-hotel-plaza.png",
+  // },
   {
     id: 2,
     tech: "React Js",
