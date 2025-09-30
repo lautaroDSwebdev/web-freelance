@@ -19,7 +19,7 @@ export const Header = () => {
           </p>
 
           <div className="flex flex-col  w-full items-center justify-evenly  sm:flex-row gap-[2rem] p-[1rem]">
-            <a className="g-btn g-bg-green w-full lg:text-[18px]" href="#servicios">Ver mis servicios</a>
+            <a className="g-btn g-bg-green w-full lg:text-[18px]" href="https://service-examples.netlify.app/" target="_blank">Ver mis servicios</a>
 
             <a className="flex gap-[5px] p-[1rem] items-center w-full justify-center"
               target="_blank" href="/LautaroDiSalvoResumeWebDev2025.pdf"
