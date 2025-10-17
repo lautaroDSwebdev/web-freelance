@@ -1,5 +1,6 @@
 import React from "react";
 import { proyectos } from "../_mock/mock";
+import Image from "next/image";
 
 export const Projects = () => {
   return (
@@ -17,8 +18,10 @@ export const Projects = () => {
               className="p-[1rem]   g-gradient-blue rounded-2xl flex flex-col g-scroll-animated-size-cards"
               key={e.id}
             >
-              <img
-                className="h-auto min-h-[13rem]  rounded-[20px] w-[100%] p-[1rem] hover:opacity-70 transition-all .3s ease-in-out"
+              <Image
+              width={300}
+              height={200}
+                className="  rounded-[20px] w-[100%] py-[1rem] hover:opacity-70 transition-all .3s ease-in-out"
                 src={e.img}
                 alt={e.data}
               />
@@ -30,7 +33,7 @@ export const Projects = () => {
                 href={e.href}
               >
                 <p className="text-[13px] md:text-[20px]  xl:text-[23px]">
-                  Ver proyecto
+                  Ver pagina
                 </p>
                   <img src="/arrow-svg.svg" alt="arrow" />
               </a>
