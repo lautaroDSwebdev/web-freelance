@@ -7,6 +7,7 @@ import {
   NavBar,
   Projects,
   Services,
+  ServicesTimeLine,
 } from "./_component";
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
       <NavBar></NavBar>
       <Header></Header>
       <AboutMe></AboutMe>
-      <Services></Services>
+      <ServicesTimeLine></ServicesTimeLine>
       <Projects></Projects>
       <Form></Form>
       <Footer></Footer>

@@ -1,25 +1,25 @@
 export const navLinks = [
-  { id: 1, option: "Home", href: "#home" },
-  { id: 2, option: "Sobre mí", href: "#sobre-mi" },
-  { id: 3, option: "Servicios", href: "#servicios" },
-  { id: 4, option: "Proyectos", href: "#proyectos" },
-  { id: 5, option: "Contacto", href: "#contacto" },
+  { id: 1, option: "Inicio", href: "inicio" },
+  { id: 2, option: "Sobre mí", href: "sobre-mi" },
+  { id: 3, option: "Servicios", href: "servicios" },
+  { id: 4, option: "Proyectos", href: "proyectos" },
+  { id: 5, option: "Contacto", href: "contacto" },
 ];
 export const navLinksIcons = [
-  { id: 1, option: "Home", href: "#home" },
+  { id: 1, option: "Inicio", href: "#inicio" },
   { id: 2, option: "Sobre mí", href: "#sobre-mi" },
   { id: 3, option: "Servicios", href: "#servicios" },
   { id: 4, option: "Proyectos", href: "#proyectos" },
   { id: 5, option: "Contacto", href: "#contacto" },
 ];
 export const proyectos = [
-  // {
-  //   id: 1,
-  //   tech: "Next Js",
-  //   href: "https://nogakurumi.com/",
-  //   data: "Noga Kurumi Web",
-  //   img: "/web-noga.png",
-  // },
+  {
+    id: 1,
+    tech: "Next Js",
+    href: "https://nogakurumi.com/",
+    data: "Noga Kurumi Web",
+    img: "/web-noga.png",
+  },
   {
     id: 2,
     tech: "React Js",
@@ -34,7 +34,8 @@ export const proyectos = [
     data: "Caprichoso Web",
     img: "/imagen-caprichoso.png",
   },
-  // { id: 4, href: "https://masfarmaciareplica.netlify.app/", data: "Farmacia Web", img: "/imagen-farmacia.webp" }
+ 
+  { id: 4, href: "https://plazahotel.netlify.app/hotel", data: "Hotel Plaza", img: "/imagen-hotel-plaza.png" }
 ];
 
 export const socialLinks = [

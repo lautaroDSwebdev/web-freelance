@@ -12,7 +12,7 @@ export const Projects = () => {
         <h2 className="g-styles-titlesection text-center p-[1rem">
           Casos de estudio
         </h2>
-        <section className="flex flex-col  sm:flex-row p-[3rem] justify-center gap-[1rem]">
+        <section className="flex flex-wrap justify-center w-full  gap-[1rem]">
           {proyectos.map((e) => (
             <div
               className="p-[1rem]   g-gradient-blue rounded-2xl flex flex-col g-scroll-animated-size-cards"
