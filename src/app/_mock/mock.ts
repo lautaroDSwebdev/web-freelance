@@ -1,9 +1,9 @@
 export const navLinks = [
-  { id: 1, option: "Inicio", href: "#inicio" },
-  { id: 2, option: "Sobre mí", href: "#sobre-mi" },
-  { id: 3, option: "Servicios", href: "#servicios" },
-  { id: 4, option: "Proyectos", href: "#proyectos" },
-  { id: 5, option: "Contacto", href: "#contacto" },
+  { id: 1, option: "Inicio", href: "inicio" },
+  { id: 2, option: "Sobre mí", href: "sobre-mi" },
+  { id: 3, option: "Servicios", href: "servicios" },
+  { id: 4, option: "Proyectos", href: "proyectos" },
+  { id: 5, option: "Contacto", href: "contacto" },
 ];
 export const navLinksIcons = [
   { id: 1, option: "Inicio", href: "#inicio" },
