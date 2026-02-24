@@ -14,7 +14,7 @@ export const NavBar = () => {
         if (section) {
           const rect = section.getBoundingClientRect();
           if (rect.top <= 200 && rect.bottom >= 560) {
-            console.log(rect)
+            // console.log(rect)
             setActiveSection(navLinks[i].href);
             break;
           }

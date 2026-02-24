@@ -6,10 +6,10 @@ export const Projects = () => {
   return (
     <div className="g-bg-dark sm:p-[5rem] pt-[4rem] section-entireheight" id="proyectos">
       <article className="max-width mx-auto">
-        <p className="g-styles-minititles g-colour-green text-center p-[1rem">
+        <p className="g-styles-minititles g-colour-green text-center p-[1rem]">
           Proyectos
         </p>
-        <h2 className="g-styles-titlesection text-center p-[1rem">
+        <h2 className="g-styles-titlesection text-center p-[1rem]">
           Casos de estudio
         </h2>
         <section className="flex flex-wrap justify-center w-full  gap-[1rem]">
@@ -18,9 +18,7 @@ export const Projects = () => {
               className="p-[1rem]   g-gradient-blue rounded-2xl flex flex-col g-scroll-animated-size-cards"
               key={e.id}
             >
-              <Image
-              width={300}
-              height={200}
+              <Image     width={300}  height={200}
                 className="  rounded-[20px] w-[100%] py-[1rem] hover:opacity-70 transition-all .3s ease-in-out"
                 src={e.img}
                 alt={e.data}
