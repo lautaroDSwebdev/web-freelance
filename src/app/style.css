@@ -29,7 +29,9 @@ body {
 html {
   scroll-behavior: smooth;
 }
-
+a,p,b{
+  color: #fff;
+}
 .section-entireheight{
   min-height: 100vh;
   display: flex;
