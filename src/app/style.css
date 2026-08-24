@@ -54,6 +54,9 @@ a,p,b{
     background-color: #2da760;
   }
 }
+.vertical-timeline-element-date{
+  width: 0% !important;
+}
 .g-scroll-animated-color {
   background-color: #1e1d30;
   @media (width < 640px) {

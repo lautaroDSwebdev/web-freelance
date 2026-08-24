@@ -40,7 +40,7 @@ export const Header = () => {
         <article className="relative mx-auto ">
           <img
             className="h-auto w-[15rem]   sm:w-[16rem] lg:w-[21rem] xl:w-[26rem] max-w-[30rem]"
-            src="./mi-cara.png"
+            src="./mi-cara-2026.png"
             alt="imagen mia"
           />
           <div className="absolute top-[12rem] left-0 right-0   sm:top-[15rem] lg:top-[18rem] xl:top-[23rem] flex flex-col sm:flex-row gap-[1rem] sm:gap-[1rem]">
