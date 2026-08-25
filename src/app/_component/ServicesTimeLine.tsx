@@ -25,6 +25,14 @@ export const ServicesTimeLine = () => {
       description:
         "Competente en desarrollo web totalmente personalizado. Tu idea la contruyo en codigo para mayor margen de personalizacion, velocidad, sin errores de plugins y totalmente escalable.",
     },
+    {
+      id: 3,
+      img: "Ai-image1.svg",
+      alt: "Ai",
+      title: "Trabajo Optimizado con IA",
+      description:
+        "Uso de herramientas avanzadas de IA como asistentes de desarrollo, lo que permite reducir significativamente los tiempos de construcción, detectar fallas de forma preventiva y entregar sitios web completamente personalizados en tiempo récord",
+    },
   ];
 
   return (
