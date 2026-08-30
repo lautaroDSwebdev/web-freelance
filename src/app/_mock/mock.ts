@@ -14,6 +14,13 @@ export const navLinksIcons = [
 ];
 export const proyectos = [
   {
+    id: 4531,
+    tech: "Next JS",
+    href: "https://hotel-turista.netlify.app/",
+    data: "Hotel Turista Tandil",
+    img: "/hotel-turista.png",
+  },
+  {
     id: 1,
     tech: "Next JS",
     href: "https://nogakurumi.com/",
@@ -48,6 +55,14 @@ export const proyectos = [
     href: 'https://lautarodisalvosmco.wixsite.com/farmacia-centrosalud',
     data: 'Odontología',
     img: '/odontologia.png',
+    
+  },
+  {
+    id: 7,
+    tech: "html",
+    href: 'https://sunnyside-practica.netlify.app/',
+    data: 'Sunnyside',
+    img: '/sunnyside.png',
     
   },
   
