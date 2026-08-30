@@ -59,7 +59,7 @@ export const proyectos = [
   },
   {
     id: 7,
-    tech: "html",
+    tech: "HTML",
     href: 'https://sunnyside-practica.netlify.app/',
     data: 'Sunnyside',
     img: '/sunnyside.png',
